@@ -14,4 +14,3 @@ python3 knock_client.py --target "$TARGET_IP" --sequence "$SEQUENCE" --check
 
 echo "[3/3] Attempting protected port after knocking"
 nc -z -v "$TARGET_IP" "$PROTECTED_PORT" || true
-

@@ -1,0 +1,5 @@
+Scan Results for Target: 172.20.0.30
+Port Range: [1, 60000]
+Total OPEN Ports: 1
+PORT       SERVICE              BANNER                                                                                              
+22         SSH                  SSH-2.0-OpenSSH_8.8p1 Ubuntu-5ubuntu0.15                                                            

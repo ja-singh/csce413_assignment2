@@ -15,8 +15,12 @@ def send_knock(target, port, delay):
     # TODO: Choose UDP or TCP knocks based on your design.
     # Example TCP knock stub:
     try:
-        with socket.create_connection((target, port), timeout=1.0):
-            pass
+        # with socket.create_connection((target, port), timeout=1.0):
+        #     pass
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        s.settimeout(0.1) # Very fast
+        s.connect((target, port))
+        s.close()
     except OSError:
         pass
     time.sleep(delay)

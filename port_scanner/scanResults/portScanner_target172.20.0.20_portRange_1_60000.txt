@@ -1,0 +1,6 @@
+Scan Results for Target: 172.20.0.20
+Port Range: [1, 60000]
+Total OPEN Ports: 1
+PORT       SERVICE              BANNER                                                                                              
+2222       Hidden SSH Server    SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+Invalid SSH identification string.                        
